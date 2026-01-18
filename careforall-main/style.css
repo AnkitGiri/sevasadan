@@ -1,0 +1,236 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF8000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* About section styles */
+.about {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Services section styles */
+.services {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Donate section styles */
+.donate {
+    background-color: #grey;
+    color: #000;
+    padding: 80px 0;
+}
+
+.donate h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.donate p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #ddd;
+    padding: 80px 0;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.donate-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    position: center;
+}
+
+.donate-btn:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Styles for the PayPal button */
+#paypal-button-container {
+    display: inline-block;
+}
+
+#paypal-container-57D5XMRVF55U6
+{
+     width:90%;
+     :center;
+}
+
+#billingAddress.country
+{
+     text-align:left;
+}
+
+.country css-1wkjv8b-selectStyles-FloatingLabelSelect
+{
+   text-align:left;
+}
+
+
+#select#billingAddress\.country
+{
+    text-align:left;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+button
+{
+   width:320px;
+   height:60px;
+   background-color:#90ee90;
+   border-radius:5px;
+}
+#cows3
+{
+   display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+#goswamiji
+{
+   display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}

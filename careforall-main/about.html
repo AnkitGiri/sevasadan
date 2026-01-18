@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compassion & Care</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .tabs {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f0f0f0;
+            padding: 10px 20px;
+        }
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .tab:hover {
+            background-color: #e0e0e0;
+        }
+        .content {
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="tabs">
+        <div class="tab" onclick="showTab('home')">Home</div>
+        <div class="tab" onclick="showTab('about')">About Us</div>
+        <div class="tab" onclick="showTab('donate')">Donate Now</div>
+        <div class="tab" onclick="showTab('contact')">Contact Us</div>
+    </div>
+    <div id="home" class="content">
+        <h2>Welcome to Compassion & Care</h2>
+        <p>Here at Compassion & Care, we are dedicated to providing food, shelter, and medical care to animals in need.</p>
+    </div>
+    <div id="about" class="content" style="display: none;">
+        <h2>About Us</h2>
+        <p><b>About Us: A Journey of Compassion and Care</b>
+
+<p>In the bustling streets of Jaipur, amidst the chaos of daily life, there exists a beacon of hope and compassion - a sanctuary born from the kindness of one man's heart. This is the story of our journey, a tale woven with threads of empathy, resilience, and unwavering dedication to the welfare of both humans and animals alike.
+</p>
+<p>
+Our story begins with the remarkable Goswami Ji, a humble yet visionary businessman whose heart overflowed with compassion for the voiceless beings that roamed the streets. It was in the year 1998 when Goswami Ji, moved by the plight of stray animals enduring hunger, illness, and neglect, embarked on a mission to make a difference.
+</p><p>
+Armed with nothing but his boundless love and determination, Goswami Ji took it upon himself to provide nourishment and care to these forsaken creatures. Day after day, he would roam the streets of Jaipur, offering food, shelter, and a gentle touch to those in need. His acts of kindness did not go unnoticed, and soon, others began to join him in his noble cause.
+</p><p>
+What started as a solitary endeavor soon blossomed into a movement as more compassionate souls rallied behind Goswami Ji's mission. Volunteers from all walks of life, united by their shared love for animals and humanity, came forward to lend their support. Together, they formed a tight-knit team dedicated to alleviating the suffering of the most vulnerable members of society.
+</p><p>
+As our organization grew, so too did our capacity to make a meaningful impact. With the support of generous donors and the tireless efforts of our dedicated team, we expanded our reach, extending our services to encompass not only the feeding and care of animals but also the provision of medical treatment and rehabilitation for those in need.
+</p><p>
+Central to our mission is the belief that every life is precious and deserving of compassion and care. In addition to our dedicated team of volunteers, we are fortunate to collaborate with skilled veterinary practitioners who lend their expertise to ensure the health and well-being of the animals under our care.
+</p><p>
+But our work extends beyond the realm of animal welfare alone. Recognizing the interconnectedness of all living beings, we are committed to supporting the communities in which we operate. Through various outreach programs, we provide assistance to marginalized individuals, offering food, medical aid, and other essential services to those facing hardship.
+</p><p>
+Today, as we look back on our journey spanning over two decades, we are filled with gratitude for the unwavering support of our donors, volunteers, and well-wishers who have made our work possible. Together, we have transformed countless lives, offering hope where there was despair and solace where there was suffering.
+</p><p>
+As we continue our mission, guided by the principles of compassion, integrity, and empathy, we remain steadfast in our commitment to making a positive difference in the world. Join us on this journey of kindness and transformation, and together, let us create a brighter, more compassionate future for all.</p>
+   </p> </div>
+    <div id="donate" class="content" style="display: none;">
+        <h2>Donate Now</h2>
+        <p>Your donations help us continue our mission of providing food, treatment, and care for animals in need. Click the button below to make a donation.</p>
+        <button>Donate Now</button>
+    </div>
+    <div id="contact" class="content" style="display: none;">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to get involved, please don't hesitate to contact us.</p>
+        <p>Email: info@compassionandcare.org</p>
+        <p>Phone: 123-456-7890</p>
+    </div>
+</div>
+
+<script>
+    function showTab(tabName) {
+        var tabs = document.getElementsByClassName('content');
+        for (var i = 0; i < tabs.length; i++) {
+            tabs[i].style.display = 'none';
+        }
+        document.getElementById(tabName).style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
